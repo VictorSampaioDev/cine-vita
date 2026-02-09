@@ -8,7 +8,7 @@ Catálogo de filmes e séries construído com React e Vite, consumindo a API do 
 
 ## Sobre o projeto
 
-O Projeto Vita é uma aplicação single-page (SPA) desenvolvida em React usando Vite como bundler. A aplicação consome a API do TMDB para exibir listas de filmes e séries, páginas de detalhe, e inclui uma funcionalidade de favoritos persistente durante a sessão.
+O CineVita é uma aplicação single-page (SPA) desenvolvida em React usando Vite como bundler. A aplicação consome a API do TMDB para exibir listas de filmes e séries, páginas de detalhe, e inclui uma funcionalidade de favoritos persistente durante a sessão.
 
 Objetivos principais:
 - Fornecer um catálogo interativo de filmes e séries
@@ -96,14 +96,3 @@ npm run dev
 - Use `context` para estado global leve (favoritos, usuário)
 - Prefira tratamentos de erro e loading nas requisições à API
 
-## Contribuição
-
-Contribuições são bem-vindas. Para contribuir:
-
-1. Fork o repositório
-2. Crie uma branch com uma feature/bugfix (`feature/nova-funcionalidade`)
-3. Abra um Pull Request descrevendo a alteração
-
-## Contato
-
-Se precisar de ajuda ou quiser colaborar, abra uma issue no repositório ou entre em contato pelo canal do projeto.
