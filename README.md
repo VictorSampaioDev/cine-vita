@@ -1,4 +1,4 @@
-# Projeto Vita
+# CineVita
 
 Catálogo de filmes e séries construído com React e Vite, consumindo a API do TMDB. Permite navegar por filmes, ver detalhes e gerenciar favoritos.
 
@@ -104,17 +104,6 @@ Contribuições são bem-vindas. Para contribuir:
 2. Crie uma branch com uma feature/bugfix (`feature/nova-funcionalidade`)
 3. Abra um Pull Request descrevendo a alteração
 
-## Licença
-
-Este projeto pode ser licenciado conforme desejado — adicione um arquivo `LICENSE` se necessário. Uma opção comum é MIT.
-
 ## Contato
 
 Se precisar de ajuda ou quiser colaborar, abra uma issue no repositório ou entre em contato pelo canal do projeto.
-
----
-
-Obrigado por usar o Projeto Vita! Se quiser, eu posso:
-- ajustar o texto para um tom diferente (mais técnico ou mais marketing);
-- adicionar badges de CI, cobertura e dependabot;
-- criar um template de issue ou pull request.
