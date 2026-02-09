@@ -2,9 +2,11 @@
 
 Catálogo de filmes e séries construído com React e Vite, consumindo a API do TMDB. Permite navegar por filmes, ver detalhes e gerenciar favoritos.
 
----
+<div align="center">
+<img width="1920" height="1079" alt="Image" src="https://github.com/user-attachments/assets/ddf1e41e-5f7e-4b08-a9f4-6566ed9ced9a" />
+</div>
 
-**Status:** Em desenvolvimento
+**Status:** Concluido
 
 ## Sobre o projeto
 
