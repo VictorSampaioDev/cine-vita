@@ -1,0 +1,149 @@
+.detalhes-root{
+  position:relative;
+  min-height:100vh;
+  color:var(--muted);
+  padding:32px;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+  width:100vw
+}
+.detalhes-root .bg{
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background-size:cover;
+  background-position:center;
+  filter:blur(8px) brightness(0.35);
+  opacity:0.95;
+  transform:scale(1.02);
+  z-index:0
+}
+.detalhes-conteudo{
+  position:relative;
+  z-index:1;
+  display:flex;
+  gap:24px;
+  align-items:flex-start;
+  max-width:1200px;
+  margin:0 auto;
+  background:rgba(255,255,255,0.02);
+  padding:30px;
+  border-radius:12px;
+  backdrop-filter: blur(6px);
+  box-shadow:0 6px 30px rgba(0,0,0,0.6)
+}
+.poster img{
+  width:320px;
+  border-radius:8px;
+  display:block
+}
+.info{
+  flex:1;
+  color:#e6eef8
+}
+.info h1{
+  margin:0;
+  font-family:'Bebas Neue',sans-serif;
+  font-size:36px
+}
+.info .ano{
+  font-family:inherit;
+  font-weight:600;
+  font-size:18px;
+  color:var(--accent);
+  margin-left:8px
+}
+.meta-line{
+  color:var(--muted);
+  margin:8px 0
+}
+.sinopse{
+  line-height:1.45;
+  color:#dceaf8
+}
+.elenco{
+  margin-top:16px
+}
+.actores{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap
+}
+.actor{
+  width:120px;
+  text-align:center
+}
+.actor img{
+  width:100px;
+  height:140px;
+  object-fit:cover;
+  border-radius:6px
+}
+.actor-name{
+  font-weight:600;
+  font-size:13px
+}
+.actor-role{
+  color:var(--muted);
+  font-size:12px
+}
+.trailer-container{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  margin-top:100px;
+  position:relative;
+  right: 22%;
+}
+.trailer{
+  width:100%;
+  max-width:900px;
+  aspect-ratio:16/9;
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 8px 30px rgba(0,0,0,0.6)
+}
+.trailer iframe{
+  width:100%;
+  height:100%;
+  border:0;
+  display:block
+}
+
+@media (max-width: 980px) {
+  .detalhes-conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .poster img {
+    width: 220px;
+    margin-bottom: 20px;
+  }
+  .info {
+    text-align: center; 
+    width: 100%;
+  }
+  .actores {
+    justify-content: center;
+  }
+  .trailer-container {
+    right: 0;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .detalhes-root {
+    padding: 16px;
+  }
+  .detalhes-conteudo {
+    padding: 20px;
+  }
+  .trailer {
+    max-width: 100%;
+    margin: 0;
+    border-radius: 8px;
+  }
+}

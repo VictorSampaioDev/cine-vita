@@ -1,0 +1,10 @@
+.lista-genero{
+    display:flex;
+    gap:20px;
+    width: 100%;
+    overflow-x:auto;
+    padding-bottom:12px;
+    padding-top:6px
+}
+.lista-genero::-webkit-scrollbar{height:0}
+ 

@@ -1,0 +1,9 @@
+.pagination-wrap{ display:flex; justify-content:center; margin:18px 0 36px }
+.pagination{ display:flex; align-items:center; gap:8px; background:transparent; padding:6px; }
+.pagination button{ background:transparent; border:0; color:var(--accent, #ffd166); padding:8px 10px; border-radius:999px; cursor:pointer; font-weight:600 }
+.pagination button.chev{ color:var(--muted, #9ca3af); font-weight:700 }
+.pagination button:disabled{ opacity:0.35; cursor:not-allowed }
+.pagination .page-btn{ min-width:38px; height:38px; display:inline-flex; align-items:center; justify-content:center }
+.pagination .page-btn.active{ background:white; color:#071124; font-weight:800; box-shadow:0 2px 8px rgba(2,6,23,0.45) }
+.pagination .page-btn:not(.active):hover{ background:rgba(255,209,102,0.06); border-radius:999px }
+.pagination .ellipsis{ color:var(--muted); padding:0 8px; font-weight:700 }

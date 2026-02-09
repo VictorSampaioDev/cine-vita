@@ -1,0 +1,8 @@
+.lista-favoritos{
+    display:flex;
+    flex-wrap:wrap;
+    gap:18px
+}
+.mensagem-vazia{
+    color:var(--muted)
+}
